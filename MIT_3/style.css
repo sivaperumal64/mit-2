@@ -1,0 +1,67 @@
+.word {
+  padding-left: 100px;
+  color: azure;
+}
+
+body {
+  background-image: url("http://www.w3.org/2000/svg");
+  background-color: salmon;
+  background-image: url(./images/bg-intro-desktop.png);
+}
+
+h5 {
+
+  justify-content: center;
+
+  background-color: blueviolet;
+
+}
+
+.container{
+  display:flex;
+  flex-direction: column;
+  margin-left: 700px;
+  position: absolute;
+  gap: 50px;
+  align-content: space-around;
+}
+
+.inputs{
+  gap: 50px;
+  align-content: space-between;
+  padding-left: 50px;
+  padding-top: 20px;
+}
+.box{
+  
+  display: flex;
+  position:absolute;
+  background-color: azure;
+  height: 400px;
+  width: 500px;
+  size: 100px;
+  gap: 15px;
+  border-style:solid;
+  border-radius: 15px 30px 15px 30px;
+ 
+}
+
+
+.buttons{
+  margin-left: 700px;
+  margin-top: 200px;
+ 
+}
+
+button{
+  color: blueviolet;
+  margin-bottom: 15px;
+}
+
+.input{
+  padding-top: 40px;
+}
+
+b{
+  color: red;
+}
